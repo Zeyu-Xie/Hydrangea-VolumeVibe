@@ -30,10 +30,10 @@ struct ContentView: View {
             Text("Version 1.0.0").foregroundStyle(.secondary)
             Text("iOS" + " " + UIDevice.current.systemVersion).foregroundStyle(.secondary)
             Spacer().frame(maxHeight: 30)
-            Text("You can press the button to set the volume to 0.002.").foregroundStyle(.secondary)
+            Text("You can press the button to set the volume to 0.001.").foregroundStyle(.secondary)
             Spacer().frame(maxHeight: 20)
             Button(action: {
-                // 按钮点击时的操作
+                setSysVolum(0.001)
             }) {
                 Text("Click It")
                     .frame(maxWidth: .infinity)
