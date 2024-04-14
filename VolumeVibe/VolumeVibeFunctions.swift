@@ -51,7 +51,6 @@ class VolumeListener: NSObject {
 
     func volumeDidChange(volume: Float) {
         print("Volume did change: \(volume)")
-        // 在此处执行音量更改后的操作
     }
 
     func stopObservingVolume() {

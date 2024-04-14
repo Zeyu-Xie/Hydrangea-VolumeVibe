@@ -10,16 +10,16 @@ import MediaPlayer
 import SwiftUI
 
 struct ContentView: View {
-    @State private var volume = 0
+    @State private var volume:Double = 0
+    @State private var version:String = "NULL"
 
-    private var listener = VolumeListener { _volume in
-        print(_volume)
+    private var listener = VolumeListener { _volume in print("Volume Changed to \(_volume)")
     }
-
-    init() {
-        setSysVolum(0.002)
+    
+    private func setVersion(_ vs: String) {
+            version = vs
     }
-
+    
     var body: some View {
         VStack {
             Image(systemName: "info.circle").font(.system(size: 60)).foregroundStyle(.blue)
@@ -27,7 +27,7 @@ struct ContentView: View {
             Text("VolumeVibe").bold().font(.title3)
             Text("Acan Xie").foregroundStyle(.secondary)
             Spacer().frame(maxHeight: 30)
-            Text("Version 1.0.0").foregroundStyle(.secondary)
+            Text("Version \(version)").foregroundStyle(.secondary)
             Text("iOS" + " " + UIDevice.current.systemVersion).foregroundStyle(.secondary)
             Spacer().frame(maxHeight: 30)
             Text("You can press the button to set the volume to 0.001.").foregroundStyle(.secondary)
@@ -46,6 +46,28 @@ struct ContentView: View {
             Spacer().frame(maxHeight: 20)
             Text("Note: this app may not work on early iOS versions.").foregroundStyle(.secondary).font(.subheadline)
         }.padding(40).frame(alignment: .center).multilineTextAlignment(.center)
+            .onAppear() {
+                
+                guard let plistURL = Bundle.main.url(forResource: "config", withExtension: "plist") else {
+                    print("Plist file not found.")
+                    return
+                }
+                
+                do {
+                    // 加载plist文件数据
+                    let plistData = try Data(contentsOf: plistURL)
+                    
+                    // 解析plist文件数据
+                    guard let plistObject = try PropertyListSerialization.propertyList(from: plistData, options: [], format: nil) as? [String: Any] else {
+                        print("Failed to parse plist file.")
+                        return
+                    }
+                    
+                    setVersion(plistObject["version"] as! String)
+                } catch {
+                    print("Error loading plist file: \(error)")
+                }
+            }
     }
 }
 

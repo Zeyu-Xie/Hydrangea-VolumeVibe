@@ -15,6 +15,7 @@
 		FF6EBE7E2BCBA2E900D1187F /* VolumeVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EBE7D2BCBA2E900D1187F /* VolumeVibeUITests.swift */; };
 		FF6EBE802BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EBE7F2BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift */; };
 		FFA9FD942BCBD9E000356E9E /* VolumeVibeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9FD932BCBD9E000356E9E /* VolumeVibeFunctions.swift */; };
+		FFFB5E122BCBEE4C00AC674F /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFFB5E112BCBEE4C00AC674F /* config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		FF6EBE7D2BCBA2E900D1187F /* VolumeVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITests.swift; sourceTree = "<group>"; };
 		FF6EBE7F2BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FFA9FD932BCBD9E000356E9E /* VolumeVibeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeFunctions.swift; sourceTree = "<group>"; };
+		FFFB5E112BCBEE4C00AC674F /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				FF6EBE622BCBA2E700D1187F /* VolumeVibeApp.swift */,
 				FF6EBE642BCBA2E700D1187F /* ContentView.swift */,
 				FFA9FD932BCBD9E000356E9E /* VolumeVibeFunctions.swift */,
+				FFFB5E112BCBEE4C00AC674F /* config.plist */,
 				FF6EBE662BCBA2E800D1187F /* Assets.xcassets */,
 				FF6EBE682BCBA2E800D1187F /* Preview Content */,
 			);
@@ -236,6 +239,7 @@
 			files = (
 				FF6EBE6A2BCBA2E800D1187F /* Preview Assets.xcassets in Resources */,
 				FF6EBE672BCBA2E800D1187F /* Assets.xcassets in Resources */,
+				FFFB5E122BCBEE4C00AC674F /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
