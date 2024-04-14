@@ -61,13 +61,22 @@ struct ContentView_1: View {
             Button(action: {
                 setSysVolum(0.001)
             }) {
-                Text("Set Volume")
-                    .frame(maxWidth: .infinity)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
-                    .padding(12)
-                    .background(.blue)
-                    .cornerRadius(10)
+                if #available(iOS 16.0, *) {
+                    Text("Set Volume")
+                        .frame(maxWidth: .infinity)
+                        .bold()
+                        .foregroundColor(Color.white)
+                        .padding(12)
+                        .background(.blue)
+                        .cornerRadius(10)
+                } else {
+                    Text("Set Volume")
+                        .frame(maxWidth: .infinity)
+                        .foregroundColor(Color.white)
+                        .padding(12)
+                        .background(.blue)
+                        .cornerRadius(10)
+                }
             }
             Spacer().frame(maxHeight: 20)
             Text("Note: this app may not work on early iOS versions.").foregroundStyle(.secondary).font(.subheadline)
