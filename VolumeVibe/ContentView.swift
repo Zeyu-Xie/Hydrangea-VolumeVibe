@@ -61,7 +61,7 @@ struct ContentView_1: View {
             Button(action: {
                 setSysVolum(0.001)
             }) {
-                Text("Click It")
+                Text("Set Volume")
                     .frame(maxWidth: .infinity)
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
