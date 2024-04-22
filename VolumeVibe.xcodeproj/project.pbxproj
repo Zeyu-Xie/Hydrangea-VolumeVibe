@@ -7,66 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF6EBE632BCBA2E700D1187F /* VolumeVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EBE622BCBA2E700D1187F /* VolumeVibeApp.swift */; };
-		FF6EBE652BCBA2E700D1187F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EBE642BCBA2E700D1187F /* ContentView.swift */; };
-		FF6EBE672BCBA2E800D1187F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6EBE662BCBA2E800D1187F /* Assets.xcassets */; };
-		FF6EBE6A2BCBA2E800D1187F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6EBE692BCBA2E800D1187F /* Preview Assets.xcassets */; };
-		FF6EBE742BCBA2E900D1187F /* VolumeVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EBE732BCBA2E900D1187F /* VolumeVibeTests.swift */; };
-		FF6EBE7E2BCBA2E900D1187F /* VolumeVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EBE7D2BCBA2E900D1187F /* VolumeVibeUITests.swift */; };
-		FF6EBE802BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EBE7F2BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift */; };
-		FFA9FD942BCBD9E000356E9E /* VolumeVibeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA9FD932BCBD9E000356E9E /* VolumeVibeFunctions.swift */; };
-		FFFF7D7C2BCC177E0091E84A /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFFF7D7B2BCC177E0091E84A /* config.plist */; };
+		FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */; };
+		FF8059122BD62EAE009E601B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059112BD62EAE009E601B /* ContentView.swift */; };
+		FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8059132BD62EB0009E601B /* Assets.xcassets */; };
+		FF8059172BD62EB0009E601B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8059162BD62EB0009E601B /* Preview Assets.xcassets */; };
+		FF8059212BD62EB1009E601B /* VolumeVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059202BD62EB1009E601B /* VolumeVibeTests.swift */; };
+		FF80592B2BD62EB1009E601B /* VolumeVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */; };
+		FF80592D2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */; };
+		FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */; };
+		FF80593C2BD62F92009E601B /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF80593B2BD62F92009E601B /* config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FF6EBE702BCBA2E900D1187F /* PBXContainerItemProxy */ = {
+		FF80591D2BD62EB1009E601B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF6EBE572BCBA2E700D1187F /* Project object */;
+			containerPortal = FF8059042BD62EAE009E601B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF6EBE5E2BCBA2E700D1187F;
+			remoteGlobalIDString = FF80590B2BD62EAE009E601B;
 			remoteInfo = VolumeVibe;
 		};
-		FF6EBE7A2BCBA2E900D1187F /* PBXContainerItemProxy */ = {
+		FF8059272BD62EB1009E601B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FF6EBE572BCBA2E700D1187F /* Project object */;
+			containerPortal = FF8059042BD62EAE009E601B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF6EBE5E2BCBA2E700D1187F;
+			remoteGlobalIDString = FF80590B2BD62EAE009E601B;
 			remoteInfo = VolumeVibe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF6EBE5F2BCBA2E700D1187F /* VolumeVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6EBE622BCBA2E700D1187F /* VolumeVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeApp.swift; sourceTree = "<group>"; };
-		FF6EBE642BCBA2E700D1187F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FF6EBE662BCBA2E800D1187F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FF6EBE692BCBA2E800D1187F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF6EBE6F2BCBA2E900D1187F /* VolumeVibeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeVibeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6EBE732BCBA2E900D1187F /* VolumeVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeTests.swift; sourceTree = "<group>"; };
-		FF6EBE792BCBA2E900D1187F /* VolumeVibeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeVibeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF6EBE7D2BCBA2E900D1187F /* VolumeVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITests.swift; sourceTree = "<group>"; };
-		FF6EBE7F2BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FFA9FD932BCBD9E000356E9E /* VolumeVibeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeFunctions.swift; sourceTree = "<group>"; };
-		FFFF7D7A2BCC177E0091E84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/config.plist; sourceTree = "<group>"; };
-		FFFF7D7D2BCC17860091E84A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/config.plist; sourceTree = "<group>"; };
+		FF80590C2BD62EAE009E601B /* VolumeVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeApp.swift; sourceTree = "<group>"; };
+		FF8059112BD62EAE009E601B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF8059132BD62EB0009E601B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8059162BD62EB0009E601B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF80591C2BD62EB1009E601B /* VolumeVibeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeVibeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8059202BD62EB1009E601B /* VolumeVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeTests.swift; sourceTree = "<group>"; };
+		FF8059262BD62EB1009E601B /* VolumeVibeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeVibeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITests.swift; sourceTree = "<group>"; };
+		FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeFunctions.swift; sourceTree = "<group>"; };
+		FF80593B2BD62F92009E601B /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF6EBE5C2BCBA2E700D1187F /* Frameworks */ = {
+		FF8059092BD62EAE009E601B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6EBE6C2BCBA2E900D1187F /* Frameworks */ = {
+		FF8059192BD62EB1009E601B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6EBE762BCBA2E900D1187F /* Frameworks */ = {
+		FF8059232BD62EB1009E601B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,60 +75,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF6EBE562BCBA2E700D1187F = {
+		FF8059032BD62EAE009E601B = {
 			isa = PBXGroup;
 			children = (
-				FF6EBE612BCBA2E700D1187F /* VolumeVibe */,
-				FF6EBE722BCBA2E900D1187F /* VolumeVibeTests */,
-				FF6EBE7C2BCBA2E900D1187F /* VolumeVibeUITests */,
-				FF6EBE602BCBA2E700D1187F /* Products */,
+				FF80590E2BD62EAE009E601B /* VolumeVibe */,
+				FF80591F2BD62EB1009E601B /* VolumeVibeTests */,
+				FF8059292BD62EB1009E601B /* VolumeVibeUITests */,
+				FF80590D2BD62EAE009E601B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FF6EBE602BCBA2E700D1187F /* Products */ = {
+		FF80590D2BD62EAE009E601B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF6EBE5F2BCBA2E700D1187F /* VolumeVibe.app */,
-				FF6EBE6F2BCBA2E900D1187F /* VolumeVibeTests.xctest */,
-				FF6EBE792BCBA2E900D1187F /* VolumeVibeUITests.xctest */,
+				FF80590C2BD62EAE009E601B /* VolumeVibe.app */,
+				FF80591C2BD62EB1009E601B /* VolumeVibeTests.xctest */,
+				FF8059262BD62EB1009E601B /* VolumeVibeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF6EBE612BCBA2E700D1187F /* VolumeVibe */ = {
+		FF80590E2BD62EAE009E601B /* VolumeVibe */ = {
 			isa = PBXGroup;
 			children = (
-				FF6EBE622BCBA2E700D1187F /* VolumeVibeApp.swift */,
-				FF6EBE642BCBA2E700D1187F /* ContentView.swift */,
-				FFA9FD932BCBD9E000356E9E /* VolumeVibeFunctions.swift */,
-				FFFF7D7B2BCC177E0091E84A /* config.plist */,
-				FF6EBE662BCBA2E800D1187F /* Assets.xcassets */,
-				FF6EBE682BCBA2E800D1187F /* Preview Content */,
+				FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */,
+				FF8059112BD62EAE009E601B /* ContentView.swift */,
+				FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */,
+				FF8059132BD62EB0009E601B /* Assets.xcassets */,
+				FF80593B2BD62F92009E601B /* config.plist */,
+				FF8059152BD62EB0009E601B /* Preview Content */,
 			);
 			path = VolumeVibe;
 			sourceTree = "<group>";
 		};
-		FF6EBE682BCBA2E800D1187F /* Preview Content */ = {
+		FF8059152BD62EB0009E601B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FF6EBE692BCBA2E800D1187F /* Preview Assets.xcassets */,
+				FF8059162BD62EB0009E601B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FF6EBE722BCBA2E900D1187F /* VolumeVibeTests */ = {
+		FF80591F2BD62EB1009E601B /* VolumeVibeTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF6EBE732BCBA2E900D1187F /* VolumeVibeTests.swift */,
+				FF8059202BD62EB1009E601B /* VolumeVibeTests.swift */,
 			);
 			path = VolumeVibeTests;
 			sourceTree = "<group>";
 		};
-		FF6EBE7C2BCBA2E900D1187F /* VolumeVibeUITests */ = {
+		FF8059292BD62EB1009E601B /* VolumeVibeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FF6EBE7D2BCBA2E900D1187F /* VolumeVibeUITests.swift */,
-				FF6EBE7F2BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift */,
+				FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */,
+				FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */,
 			);
 			path = VolumeVibeUITests;
 			sourceTree = "<group>";
@@ -137,13 +136,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF6EBE5E2BCBA2E700D1187F /* VolumeVibe */ = {
+		FF80590B2BD62EAE009E601B /* VolumeVibe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF6EBE832BCBA2E900D1187F /* Build configuration list for PBXNativeTarget "VolumeVibe" */;
+			buildConfigurationList = FF8059302BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibe" */;
 			buildPhases = (
-				FF6EBE5B2BCBA2E700D1187F /* Sources */,
-				FF6EBE5C2BCBA2E700D1187F /* Frameworks */,
-				FF6EBE5D2BCBA2E700D1187F /* Resources */,
+				FF8059082BD62EAE009E601B /* Sources */,
+				FF8059092BD62EAE009E601B /* Frameworks */,
+				FF80590A2BD62EAE009E601B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,69 +150,69 @@
 			);
 			name = VolumeVibe;
 			productName = VolumeVibe;
-			productReference = FF6EBE5F2BCBA2E700D1187F /* VolumeVibe.app */;
+			productReference = FF80590C2BD62EAE009E601B /* VolumeVibe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FF6EBE6E2BCBA2E900D1187F /* VolumeVibeTests */ = {
+		FF80591B2BD62EB1009E601B /* VolumeVibeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF6EBE862BCBA2E900D1187F /* Build configuration list for PBXNativeTarget "VolumeVibeTests" */;
+			buildConfigurationList = FF8059332BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeTests" */;
 			buildPhases = (
-				FF6EBE6B2BCBA2E900D1187F /* Sources */,
-				FF6EBE6C2BCBA2E900D1187F /* Frameworks */,
-				FF6EBE6D2BCBA2E900D1187F /* Resources */,
+				FF8059182BD62EB1009E601B /* Sources */,
+				FF8059192BD62EB1009E601B /* Frameworks */,
+				FF80591A2BD62EB1009E601B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF6EBE712BCBA2E900D1187F /* PBXTargetDependency */,
+				FF80591E2BD62EB1009E601B /* PBXTargetDependency */,
 			);
 			name = VolumeVibeTests;
 			productName = VolumeVibeTests;
-			productReference = FF6EBE6F2BCBA2E900D1187F /* VolumeVibeTests.xctest */;
+			productReference = FF80591C2BD62EB1009E601B /* VolumeVibeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FF6EBE782BCBA2E900D1187F /* VolumeVibeUITests */ = {
+		FF8059252BD62EB1009E601B /* VolumeVibeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF6EBE892BCBA2E900D1187F /* Build configuration list for PBXNativeTarget "VolumeVibeUITests" */;
+			buildConfigurationList = FF8059362BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeUITests" */;
 			buildPhases = (
-				FF6EBE752BCBA2E900D1187F /* Sources */,
-				FF6EBE762BCBA2E900D1187F /* Frameworks */,
-				FF6EBE772BCBA2E900D1187F /* Resources */,
+				FF8059222BD62EB1009E601B /* Sources */,
+				FF8059232BD62EB1009E601B /* Frameworks */,
+				FF8059242BD62EB1009E601B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FF6EBE7B2BCBA2E900D1187F /* PBXTargetDependency */,
+				FF8059282BD62EB1009E601B /* PBXTargetDependency */,
 			);
 			name = VolumeVibeUITests;
 			productName = VolumeVibeUITests;
-			productReference = FF6EBE792BCBA2E900D1187F /* VolumeVibeUITests.xctest */;
+			productReference = FF8059262BD62EB1009E601B /* VolumeVibeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FF6EBE572BCBA2E700D1187F /* Project object */ = {
+		FF8059042BD62EAE009E601B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					FF6EBE5E2BCBA2E700D1187F = {
+					FF80590B2BD62EAE009E601B = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					FF6EBE6E2BCBA2E900D1187F = {
+					FF80591B2BD62EB1009E601B = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = FF6EBE5E2BCBA2E700D1187F;
+						TestTargetID = FF80590B2BD62EAE009E601B;
 					};
-					FF6EBE782BCBA2E900D1187F = {
+					FF8059252BD62EB1009E601B = {
 						CreatedOnToolsVersion = 15.3;
-						TestTargetID = FF6EBE5E2BCBA2E700D1187F;
+						TestTargetID = FF80590B2BD62EAE009E601B;
 					};
 				};
 			};
-			buildConfigurationList = FF6EBE5A2BCBA2E700D1187F /* Build configuration list for PBXProject "VolumeVibe" */;
+			buildConfigurationList = FF8059072BD62EAE009E601B /* Build configuration list for PBXProject "VolumeVibe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,37 +220,37 @@
 				en,
 				Base,
 			);
-			mainGroup = FF6EBE562BCBA2E700D1187F;
-			productRefGroup = FF6EBE602BCBA2E700D1187F /* Products */;
+			mainGroup = FF8059032BD62EAE009E601B;
+			productRefGroup = FF80590D2BD62EAE009E601B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF6EBE5E2BCBA2E700D1187F /* VolumeVibe */,
-				FF6EBE6E2BCBA2E900D1187F /* VolumeVibeTests */,
-				FF6EBE782BCBA2E900D1187F /* VolumeVibeUITests */,
+				FF80590B2BD62EAE009E601B /* VolumeVibe */,
+				FF80591B2BD62EB1009E601B /* VolumeVibeTests */,
+				FF8059252BD62EB1009E601B /* VolumeVibeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF6EBE5D2BCBA2E700D1187F /* Resources */ = {
+		FF80590A2BD62EAE009E601B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF6EBE6A2BCBA2E800D1187F /* Preview Assets.xcassets in Resources */,
-				FF6EBE672BCBA2E800D1187F /* Assets.xcassets in Resources */,
-				FFFF7D7C2BCC177E0091E84A /* config.plist in Resources */,
+				FF8059172BD62EB0009E601B /* Preview Assets.xcassets in Resources */,
+				FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */,
+				FF80593C2BD62F92009E601B /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6EBE6D2BCBA2E900D1187F /* Resources */ = {
+		FF80591A2BD62EB1009E601B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6EBE772BCBA2E900D1187F /* Resources */ = {
+		FF8059242BD62EB1009E601B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,62 +260,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FF6EBE5B2BCBA2E700D1187F /* Sources */ = {
+		FF8059082BD62EAE009E601B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA9FD942BCBD9E000356E9E /* VolumeVibeFunctions.swift in Sources */,
-				FF6EBE652BCBA2E700D1187F /* ContentView.swift in Sources */,
-				FF6EBE632BCBA2E700D1187F /* VolumeVibeApp.swift in Sources */,
+				FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */,
+				FF8059122BD62EAE009E601B /* ContentView.swift in Sources */,
+				FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6EBE6B2BCBA2E900D1187F /* Sources */ = {
+		FF8059182BD62EB1009E601B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF6EBE742BCBA2E900D1187F /* VolumeVibeTests.swift in Sources */,
+				FF8059212BD62EB1009E601B /* VolumeVibeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF6EBE752BCBA2E900D1187F /* Sources */ = {
+		FF8059222BD62EB1009E601B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF6EBE802BCBA2E900D1187F /* VolumeVibeUITestsLaunchTests.swift in Sources */,
-				FF6EBE7E2BCBA2E900D1187F /* VolumeVibeUITests.swift in Sources */,
+				FF80592D2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift in Sources */,
+				FF80592B2BD62EB1009E601B /* VolumeVibeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FF6EBE712BCBA2E900D1187F /* PBXTargetDependency */ = {
+		FF80591E2BD62EB1009E601B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF6EBE5E2BCBA2E700D1187F /* VolumeVibe */;
-			targetProxy = FF6EBE702BCBA2E900D1187F /* PBXContainerItemProxy */;
+			target = FF80590B2BD62EAE009E601B /* VolumeVibe */;
+			targetProxy = FF80591D2BD62EB1009E601B /* PBXContainerItemProxy */;
 		};
-		FF6EBE7B2BCBA2E900D1187F /* PBXTargetDependency */ = {
+		FF8059282BD62EB1009E601B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF6EBE5E2BCBA2E700D1187F /* VolumeVibe */;
-			targetProxy = FF6EBE7A2BCBA2E900D1187F /* PBXContainerItemProxy */;
+			target = FF80590B2BD62EAE009E601B /* VolumeVibe */;
+			targetProxy = FF8059272BD62EB1009E601B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		FFFF7D7B2BCC177E0091E84A /* config.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFFF7D7A2BCC177E0091E84A /* Base */,
-				FFFF7D7D2BCC17860091E84A /* en */,
-			);
-			name = config.plist;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		FF6EBE812BCBA2E900D1187F /* Debug */ = {
+		FF80592E2BD62EB1009E601B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		FF6EBE822BCBA2E900D1187F /* Release */ = {
+		FF80592F2BD62EB1009E601B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,7 +422,7 @@
 			};
 			name = Release;
 		};
-		FF6EBE842BCBA2E900D1187F /* Debug */ = {
+		FF8059312BD62EB1009E601B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,18 +433,16 @@
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AcanXie.VolumeVibe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -466,7 +451,7 @@
 			};
 			name = Debug;
 		};
-		FF6EBE852BCBA2E900D1187F /* Release */ = {
+		FF8059322BD62EB1009E601B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -477,18 +462,16 @@
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AcanXie.VolumeVibe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -497,7 +480,7 @@
 			};
 			name = Release;
 		};
-		FF6EBE872BCBA2E900D1187F /* Debug */ = {
+		FF8059342BD62EB1009E601B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,7 +500,7 @@
 			};
 			name = Debug;
 		};
-		FF6EBE882BCBA2E900D1187F /* Release */ = {
+		FF8059352BD62EB1009E601B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,7 +520,7 @@
 			};
 			name = Release;
 		};
-		FF6EBE8A2BCBA2E900D1187F /* Debug */ = {
+		FF8059372BD62EB1009E601B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,7 +538,7 @@
 			};
 			name = Debug;
 		};
-		FF6EBE8B2BCBA2E900D1187F /* Release */ = {
+		FF8059382BD62EB1009E601B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -576,43 +559,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF6EBE5A2BCBA2E700D1187F /* Build configuration list for PBXProject "VolumeVibe" */ = {
+		FF8059072BD62EAE009E601B /* Build configuration list for PBXProject "VolumeVibe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF6EBE812BCBA2E900D1187F /* Debug */,
-				FF6EBE822BCBA2E900D1187F /* Release */,
+				FF80592E2BD62EB1009E601B /* Debug */,
+				FF80592F2BD62EB1009E601B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF6EBE832BCBA2E900D1187F /* Build configuration list for PBXNativeTarget "VolumeVibe" */ = {
+		FF8059302BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF6EBE842BCBA2E900D1187F /* Debug */,
-				FF6EBE852BCBA2E900D1187F /* Release */,
+				FF8059312BD62EB1009E601B /* Debug */,
+				FF8059322BD62EB1009E601B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF6EBE862BCBA2E900D1187F /* Build configuration list for PBXNativeTarget "VolumeVibeTests" */ = {
+		FF8059332BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF6EBE872BCBA2E900D1187F /* Debug */,
-				FF6EBE882BCBA2E900D1187F /* Release */,
+				FF8059342BD62EB1009E601B /* Debug */,
+				FF8059352BD62EB1009E601B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF6EBE892BCBA2E900D1187F /* Build configuration list for PBXNativeTarget "VolumeVibeUITests" */ = {
+		FF8059362BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF6EBE8A2BCBA2E900D1187F /* Debug */,
-				FF6EBE8B2BCBA2E900D1187F /* Release */,
+				FF8059372BD62EB1009E601B /* Debug */,
+				FF8059382BD62EB1009E601B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FF6EBE572BCBA2E700D1187F /* Project object */;
+	rootObject = FF8059042BD62EAE009E601B /* Project object */;
 }
