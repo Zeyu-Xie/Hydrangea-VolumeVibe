@@ -85,25 +85,7 @@ struct ContentView_1: View {
         }.padding(40).frame(alignment: .center).multilineTextAlignment(.center)
             .onAppear() {
                 
-                guard let plistURL = Bundle.main.url(forResource: "config", withExtension: "plist") else {
-                    print("Plist file not found.")
-                    return
-                }
-                
-                do {
-                    // 加载plist文件数据
-                    let plistData = try Data(contentsOf: plistURL)
-                    
-                    // 解析plist文件数据
-                    guard let plistObject = try PropertyListSerialization.propertyList(from: plistData, options: [], format: nil) as? [String: Any] else {
-                        print("Failed to parse plist file.")
-                        return
-                    }
-                    
-                    setVersion(plistObject["version"] as! String)
-                } catch {
-                    print("Error loading plist file: \(error)")
-                }
+                setVersion((Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String)!)
             }
     }
 }
