@@ -7,6 +7,8 @@
 
 import Foundation
 import MediaPlayer
+import AVFoundation
+import Combine
 
 func setSysVolum(_ value: Float) {
     let volumeView = MPVolumeView()
@@ -17,47 +19,25 @@ func setSysVolum(_ value: Float) {
     }
 }
 
-class VolumeListener: NSObject {
-    private var audioSession: AVAudioSession!
-    private var volumeObservation: NSKeyValueObservation?
+class VolumeViewModel: ObservableObject {
+    @Published var currentVolume: Float = 0.0
+    
+    private var cancellable: AnyCancellable?
 
-    private var volumeDidChange: (_ volume: Float) -> Void // 音量变化通知函数
-
-    init(volumeDidChange: @escaping (_ volume: Float) -> Void) {
-        self.volumeDidChange = volumeDidChange
-        super.init()
+    init() {
         setupAudioSession()
     }
-
+    
     private func setupAudioSession() {
-        audioSession = AVAudioSession.sharedInstance()
-
+        let audioSession = AVAudioSession.sharedInstance()
         do {
-            try audioSession.setActive(true, options: [])
+            try audioSession.setActive(true)
+            self.cancellable = audioSession.publisher(for: \.outputVolume)
+                .sink { [weak self] volume in
+                    self?.currentVolume = volume
+                }
         } catch {
-            print("Failed to activate audio session: \(error)")
-            return
+            print("Error setting up audio session: \(error.localizedDescription)")
         }
-
-        startObservingVolume()
-    }
-
-    private func startObservingVolume() {
-        volumeObservation = audioSession.observe(\.outputVolume, options: [.initial, .new]) { [weak self] audioSession, _ in
-            let currentVolume = audioSession.outputVolume
-            self?.volumeDidChange(currentVolume)
-        }
-    }
-
-    func volumeDidChange(volume: Float) {
-        print("Volume did change: \(volume)")
-    }
-
-    func stopObservingVolume() {
-        volumeObservation = nil
-    }
-
-    deinit {
-        stopObservingVolume()
     }
 }

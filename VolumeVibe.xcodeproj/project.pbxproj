@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF58260C2BDA028D00DFD619 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58260B2BDA028D00DFD619 /* Home.swift */; };
+		FF58260E2BDA02D300DFD619 /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58260D2BDA02D300DFD619 /* More.swift */; };
 		FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */; };
 		FF8059122BD62EAE009E601B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059112BD62EAE009E601B /* ContentView.swift */; };
 		FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8059132BD62EB0009E601B /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF58260B2BDA028D00DFD619 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FF58260D2BDA02D300DFD619 /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
 		FF80590C2BD62EAE009E601B /* VolumeVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeApp.swift; sourceTree = "<group>"; };
 		FF8059112BD62EAE009E601B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 			children = (
 				FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */,
 				FF8059112BD62EAE009E601B /* ContentView.swift */,
+				FF58260D2BDA02D300DFD619 /* More.swift */,
+				FF58260B2BDA028D00DFD619 /* Home.swift */,
 				FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */,
 				FF8059132BD62EB0009E601B /* Assets.xcassets */,
 				FF80593B2BD62F92009E601B /* config.plist */,
@@ -264,8 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF58260E2BDA02D300DFD619 /* More.swift in Sources */,
 				FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */,
 				FF8059122BD62EAE009E601B /* ContentView.swift in Sources */,
+				FF58260C2BDA028D00DFD619 /* Home.swift in Sources */,
 				FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AcanXie.Hydrangea-VolumeVibe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -477,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AcanXie.Hydrangea-VolumeVibe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
