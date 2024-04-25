@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FF58260C2BDA028D00DFD619 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58260B2BDA028D00DFD619 /* Home.swift */; };
 		FF58260E2BDA02D300DFD619 /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58260D2BDA02D300DFD619 /* More.swift */; };
+		FF6398D22BDAAC47003FCBFB /* Castle in the Sky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6398D12BDAAC47003FCBFB /* Castle in the Sky.mp3 */; };
 		FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */; };
 		FF8059122BD62EAE009E601B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059112BD62EAE009E601B /* ContentView.swift */; };
 		FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8059132BD62EB0009E601B /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		FF58260B2BDA028D00DFD619 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FF58260D2BDA02D300DFD619 /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		FF6398D12BDAAC47003FCBFB /* Castle in the Sky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Castle in the Sky.mp3"; sourceTree = "<group>"; };
 		FF80590C2BD62EAE009E601B /* VolumeVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeApp.swift; sourceTree = "<group>"; };
 		FF8059112BD62EAE009E601B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */,
 				FF856BE52BDA939B00A7BC33 /* Simulation.swift */,
 				FF856BE72BDA93A500A7BC33 /* Privacy.swift */,
+				FF6398D12BDAAC47003FCBFB /* Castle in the Sky.mp3 */,
 				FF856BE92BDA96B000A7BC33 /* About.swift */,
 			);
 			path = More;
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF8059172BD62EB0009E601B /* Preview Assets.xcassets in Resources */,
+				FF6398D22BDAAC47003FCBFB /* Castle in the Sky.mp3 in Resources */,
 				FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
