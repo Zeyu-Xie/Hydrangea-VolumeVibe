@@ -41,3 +41,10 @@ class VolumeViewModel: ObservableObject {
         }
     }
 }
+
+func formattedValue(value: Double) -> String {
+        let formatter = NumberFormatter()
+        formatter.minimumFractionDigits = 4
+        formatter.maximumFractionDigits = 4
+        return formatter.string(from: NSNumber(value: value)) ?? ""
+    }

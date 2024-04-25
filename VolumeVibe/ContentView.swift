@@ -24,8 +24,7 @@ struct ContentView: View {
             }
             
             NavigationView {
-                More()
-                    .navigationBarTitle("More", displayMode: .automatic)
+                More().navigationBarTitle("More", displayMode: .automatic)
             }
             .tabItem {
                 Image(systemName: "gear")

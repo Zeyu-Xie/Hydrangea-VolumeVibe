@@ -17,7 +17,10 @@
 		FF80592B2BD62EB1009E601B /* VolumeVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */; };
 		FF80592D2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */; };
 		FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */; };
-		FFC318642BDA2B5F007E19B9 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC318632BDA2B5F007E19B9 /* Cards.swift */; };
+		FF856BE32BDA8DCF00A7BC33 /* Accurate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */; };
+		FF856BE62BDA939B00A7BC33 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE52BDA939B00A7BC33 /* Simulation.swift */; };
+		FF856BE82BDA93A500A7BC33 /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE72BDA93A500A7BC33 /* Privacy.swift */; };
+		FF856BEA2BDA96B000A7BC33 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE92BDA96B000A7BC33 /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +54,10 @@
 		FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITests.swift; sourceTree = "<group>"; };
 		FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeFunctions.swift; sourceTree = "<group>"; };
-		FFC318632BDA2B5F007E19B9 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accurate.swift; sourceTree = "<group>"; };
+		FF856BE52BDA939B00A7BC33 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+		FF856BE72BDA93A500A7BC33 /* Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
+		FF856BE92BDA96B000A7BC33 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,8 @@
 				FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */,
 				FF8059112BD62EAE009E601B /* ContentView.swift */,
 				FF58260D2BDA02D300DFD619 /* More.swift */,
+				FF856BE42BDA932B00A7BC33 /* More */,
 				FF58260B2BDA028D00DFD619 /* Home.swift */,
-				FFC318632BDA2B5F007E19B9 /* Cards.swift */,
 				FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */,
 				FF8059132BD62EB0009E601B /* Assets.xcassets */,
 				FF8059152BD62EB0009E601B /* Preview Content */,
@@ -137,6 +143,17 @@
 				FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */,
 			);
 			path = VolumeVibeUITests;
+			sourceTree = "<group>";
+		};
+		FF856BE42BDA932B00A7BC33 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */,
+				FF856BE52BDA939B00A7BC33 /* Simulation.swift */,
+				FF856BE72BDA93A500A7BC33 /* Privacy.swift */,
+				FF856BE92BDA96B000A7BC33 /* About.swift */,
+			);
+			path = More;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF856BE62BDA939B00A7BC33 /* Simulation.swift in Sources */,
 				FF58260E2BDA02D300DFD619 /* More.swift in Sources */,
+				FF856BE32BDA8DCF00A7BC33 /* Accurate.swift in Sources */,
 				FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */,
 				FF8059122BD62EAE009E601B /* ContentView.swift in Sources */,
-				FFC318642BDA2B5F007E19B9 /* Cards.swift in Sources */,
+				FF856BEA2BDA96B000A7BC33 /* About.swift in Sources */,
+				FF856BE82BDA93A500A7BC33 /* Privacy.swift in Sources */,
 				FF58260C2BDA028D00DFD619 /* Home.swift in Sources */,
 				FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */,
 			);

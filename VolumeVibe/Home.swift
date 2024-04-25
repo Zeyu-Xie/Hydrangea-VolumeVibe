@@ -53,11 +53,4 @@ struct Home: View {
             
         }.padding(.horizontal, 40).frame(maxHeight: .infinity, alignment: .center).multilineTextAlignment(.center).background(Color(.systemGray6))
     }
-    
-    private func formattedValue(value: Double) -> String {
-            let formatter = NumberFormatter()
-            formatter.minimumFractionDigits = 4
-            formatter.maximumFractionDigits = 4
-            return formatter.string(from: NSNumber(value: value)) ?? ""
-        }
 }
