@@ -13,11 +13,10 @@ import AuthenticationServices
 struct ContentView: View {
     
     var body: some View {
-        Spacer()
+        
         TabView {
             NavigationView {
                 Home()
-                    .navigationBarTitle("Home", displayMode: .automatic)
             }
             .tabItem {
                 Image(systemName: "house")
@@ -33,10 +32,7 @@ struct ContentView: View {
                 Text("More")
             }
         }
-        Spacer()
+        
+        
     }
 }
-
-//#Preview {
-//    ContentView()
-//}

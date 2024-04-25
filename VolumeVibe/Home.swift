@@ -51,7 +51,7 @@ struct Home: View {
             Spacer().frame(maxHeight: 20)
             Text("Note: this app may not work on iOS versions earlier than 15.0.").foregroundStyle(.secondary).font(.subheadline)
             
-        }.padding(40).frame(alignment: .center).multilineTextAlignment(.center)
+        }.padding(.horizontal, 40).frame(maxHeight: .infinity, alignment: .center).multilineTextAlignment(.center).background(Color(.systemGray6))
     }
     
     private func formattedValue(value: Double) -> String {

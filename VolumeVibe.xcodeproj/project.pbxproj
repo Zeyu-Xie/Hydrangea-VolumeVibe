@@ -17,7 +17,7 @@
 		FF80592B2BD62EB1009E601B /* VolumeVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */; };
 		FF80592D2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */; };
 		FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */; };
-		FF80593C2BD62F92009E601B /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF80593B2BD62F92009E601B /* config.plist */; };
+		FFC318642BDA2B5F007E19B9 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC318632BDA2B5F007E19B9 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITests.swift; sourceTree = "<group>"; };
 		FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeFunctions.swift; sourceTree = "<group>"; };
-		FF80593B2BD62F92009E601B /* config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		FFC318632BDA2B5F007E19B9 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +106,9 @@
 				FF8059112BD62EAE009E601B /* ContentView.swift */,
 				FF58260D2BDA02D300DFD619 /* More.swift */,
 				FF58260B2BDA028D00DFD619 /* Home.swift */,
+				FFC318632BDA2B5F007E19B9 /* Cards.swift */,
 				FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */,
 				FF8059132BD62EB0009E601B /* Assets.xcassets */,
-				FF80593B2BD62F92009E601B /* config.plist */,
 				FF8059152BD62EB0009E601B /* Preview Content */,
 			);
 			path = VolumeVibe;
@@ -245,7 +245,6 @@
 			files = (
 				FF8059172BD62EB0009E601B /* Preview Assets.xcassets in Resources */,
 				FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */,
-				FF80593C2BD62F92009E601B /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +272,7 @@
 				FF58260E2BDA02D300DFD619 /* More.swift in Sources */,
 				FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */,
 				FF8059122BD62EAE009E601B /* ContentView.swift in Sources */,
+				FFC318642BDA2B5F007E19B9 /* Cards.swift in Sources */,
 				FF58260C2BDA028D00DFD619 /* Home.swift in Sources */,
 				FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */,
 			);
