@@ -51,6 +51,6 @@ struct Home: View {
             Spacer().frame(maxHeight: 20)
             Text("Note: this app may not work on iOS versions earlier than 15.0.").foregroundStyle(.secondary).font(.subheadline)
             
-        }.padding(.horizontal, 40).frame(maxHeight: .infinity, alignment: .center).multilineTextAlignment(.center).background(Color(.systemGray6))
+        }.padding(.horizontal, 40).frame(maxHeight: .infinity, alignment: .center).multilineTextAlignment(.center)
     }
 }

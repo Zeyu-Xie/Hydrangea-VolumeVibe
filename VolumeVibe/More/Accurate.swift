@@ -32,9 +32,7 @@ struct Accurate: View {
                 .cornerRadius(10)
                 .overlay(
                     HStack {
-                        Text("Volume")
-                            .foregroundColor(.black)
-                            .padding(.horizontal, 20)
+                        Text("Volume")                            .padding(.horizontal, 20)
                         Spacer()
                     }
                 )
