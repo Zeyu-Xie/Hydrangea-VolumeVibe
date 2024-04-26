@@ -9,6 +9,7 @@ import Foundation
 import MediaPlayer
 import AVFoundation
 import Combine
+import SwiftUI
 
 func setSysVolum(_ value: Float) {
     let volumeView = MPVolumeView()
@@ -48,3 +49,10 @@ func formattedValue(value: Double) -> String {
         formatter.maximumFractionDigits = 4
         return formatter.string(from: NSNumber(value: value)) ?? ""
     }
+
+struct CustomTextFieldStyle: TextFieldStyle {
+    func _body(configuration: TextField<Self._Label>) -> some View {
+        configuration
+            .padding(.leading, 80)
+    }
+}

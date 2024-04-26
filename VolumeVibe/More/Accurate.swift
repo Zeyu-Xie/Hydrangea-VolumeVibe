@@ -37,6 +37,8 @@ struct Accurate: View {
                     }
                 )
                 .keyboardType(.decimalPad)
+                .multilineTextAlignment(.leading)
+                .textFieldStyle(CustomTextFieldStyle())
             
             
             
