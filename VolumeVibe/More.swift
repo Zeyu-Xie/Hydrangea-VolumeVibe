@@ -23,7 +23,7 @@ struct More: View {
                     HStack {
                         Label("Accurate", systemImage: "ruler")
                         Spacer()
-                        Text("\(formattedValue(value: Double(viewModel.currentVolume)))").foregroundStyle(.secondary)
+                        Text("\(formattedValue(value: 100*Double(viewModel.currentVolume)))").foregroundStyle(.secondary)
                     }
                 }
                 NavigationLink(destination: Simulation().navigationBarTitle("Simulation", displayMode: .inline)) {

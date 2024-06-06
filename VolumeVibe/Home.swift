@@ -11,6 +11,7 @@ import SwiftUI
 struct Home: View {
         
     @StateObject private var viewModel = VolumeViewModel()
+    @State private var showAlert_1 = false
     
     var body: some View {
         VStack {
@@ -22,7 +23,7 @@ struct Home: View {
             Text("Version \((Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String)!)").foregroundStyle(.secondary)
             Text("iOS" + " " + UIDevice.current.systemVersion).foregroundStyle(.secondary)
             Spacer().frame(maxHeight: 30)
-            Text("Press and Set Volume as 0.001").foregroundStyle(.secondary)
+            Text("Press and Set Volume as 0.1.").foregroundStyle(.secondary)
             
             Spacer().frame(maxHeight: 20)
             
@@ -47,7 +48,20 @@ struct Home: View {
                 }
             }
             Spacer().frame(maxHeight: 20)
-            Text("Current Volume: \(formattedValue(value: Double(viewModel.currentVolume)))").foregroundStyle(.secondary).font(.subheadline)
+            HStack(alignment: .center, content: {
+                Text("Current Volume: About \(formattedValue(value: 100*Double(viewModel.currentVolume)))").foregroundStyle(.secondary).font(.subheadline)
+                Image(systemName: "questionmark.circle").resizable().frame(width: 12, height: 12).foregroundStyle(.secondary).onTapGesture {
+                    showAlert_1 = true
+                }.alert(isPresented: $showAlert_1) {
+                    Alert(
+                    title: Text("Attention"),
+                    message: Text("Due to Apple's API limitations, it is not possible to display precise volume numbers in this context."),
+                    dismissButton: .default(Text("Got It"))
+                    )
+                    }
+                
+            }).padding(0)
+            
             Spacer().frame(maxHeight: 20)
             Text("Note: this app may not work on iOS versions earlier than 15.0.").foregroundStyle(.secondary).font(.subheadline)
             

@@ -18,7 +18,7 @@ struct Accurate: View {
                 .foregroundColor(.secondary)
             
             VStack(alignment: .leading, content: {
-                Text("On Apple devices, the volume value typically ranges from 0 to 1, where 0 represents muted or no sound, and 1 indicates the maximum volume.").foregroundStyle(.secondary).multilineTextAlignment(.leading)
+                Text("On Apple devices, the volume value typically ranges from 0 to 1. However, in this app the range is 0.0 to 100.0, which is believed to be more intuitive.").foregroundStyle(.secondary).multilineTextAlignment(.leading)
                 Spacer().frame(maxHeight: 20)
                 Text("This range allows for precise control over the audio output level. It's important to note that values outside this range might not have any effect on the actual volume level.").foregroundStyle(.secondary).multilineTextAlignment(.leading)
                 Spacer().frame(maxHeight: 20)
@@ -26,7 +26,7 @@ struct Accurate: View {
                     .foregroundColor(.secondary).multilineTextAlignment(.leading)
             })
             
-            TextField("Set Volume 0 - 1", text: $volumeInput)
+            TextField("Set Volume 0.0 - 100.0", text: $volumeInput)
                 .padding(12)
                 .background(Color(UIColor.systemBackground))
                 .cornerRadius(10)
@@ -43,7 +43,10 @@ struct Accurate: View {
             
             
             Button(action: {
-                setSysVolum(Float(volumeInput.replacingOccurrences(of: ",", with: "."))!)
+                if let volume = Float(volumeInput.replacingOccurrences(of: ",", with: ".")) {
+                    let sysVolume = volume * 0.01
+                    setSysVolum(sysVolume)
+                }
             }) {
                 Text("Set Volume")
                     .foregroundColor(.white)
