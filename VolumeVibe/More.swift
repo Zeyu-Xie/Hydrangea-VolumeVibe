@@ -32,6 +32,9 @@ struct More: View {
             }
             
             Section {
+                NavigationLink(destination: Settings().navigationBarTitle("Settings", displayMode: .inline)) {
+                    Label("Settings", systemImage: "gear")
+                }
                 NavigationLink(destination: Privacy().navigationBarTitle("Privacy Policy", displayMode: .inline)) {
                     Label("Privacy", systemImage: "hand.raised")
                 }

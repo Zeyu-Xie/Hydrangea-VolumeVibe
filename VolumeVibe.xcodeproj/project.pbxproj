@@ -22,6 +22,8 @@
 		FF856BE62BDA939B00A7BC33 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE52BDA939B00A7BC33 /* Simulation.swift */; };
 		FF856BE82BDA93A500A7BC33 /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE72BDA93A500A7BC33 /* Privacy.swift */; };
 		FF856BEA2BDA96B000A7BC33 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE92BDA96B000A7BC33 /* About.swift */; };
+		FFF5D2192C1C3E1B00DDCF45 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5D2182C1C3E1B00DDCF45 /* Settings.swift */; };
+		FFF5D21C2C1C413500DDCF45 /* QuickVolumeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5D21B2C1C413500DDCF45 /* QuickVolumeValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		FF856BE52BDA939B00A7BC33 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
 		FF856BE72BDA93A500A7BC33 /* Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
 		FF856BE92BDA96B000A7BC33 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		FFF5D2182C1C3E1B00DDCF45 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		FFF5D21B2C1C413500DDCF45 /* QuickVolumeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickVolumeValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,12 +155,22 @@
 			isa = PBXGroup;
 			children = (
 				FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */,
+				FFF5D2182C1C3E1B00DDCF45 /* Settings.swift */,
+				FFF5D21A2C1C408E00DDCF45 /* Settings */,
 				FF856BE52BDA939B00A7BC33 /* Simulation.swift */,
 				FF856BE72BDA93A500A7BC33 /* Privacy.swift */,
 				FF6398D12BDAAC47003FCBFB /* Castle in the Sky.mp3 */,
 				FF856BE92BDA96B000A7BC33 /* About.swift */,
 			);
 			path = More;
+			sourceTree = "<group>";
+		};
+		FFF5D21A2C1C408E00DDCF45 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5D21B2C1C413500DDCF45 /* QuickVolumeValue.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +308,12 @@
 				FF58260E2BDA02D300DFD619 /* More.swift in Sources */,
 				FF856BE32BDA8DCF00A7BC33 /* Accurate.swift in Sources */,
 				FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */,
+				FFF5D2192C1C3E1B00DDCF45 /* Settings.swift in Sources */,
 				FF8059122BD62EAE009E601B /* ContentView.swift in Sources */,
 				FF856BEA2BDA96B000A7BC33 /* About.swift in Sources */,
 				FF856BE82BDA93A500A7BC33 /* Privacy.swift in Sources */,
 				FF58260C2BDA028D00DFD619 /* Home.swift in Sources */,
+				FFF5D21C2C1C413500DDCF45 /* QuickVolumeValue.swift in Sources */,
 				FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
