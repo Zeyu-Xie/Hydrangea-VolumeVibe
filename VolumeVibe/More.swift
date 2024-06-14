@@ -24,7 +24,7 @@ struct WebView: UIViewRepresentable {
 
 struct More: View {
     
-    
+    @State private var showAppStore: Bool = false
     
     @StateObject private var viewModel = VolumeViewModel()
     
@@ -49,10 +49,10 @@ struct More: View {
                 NavigationLink(destination: Settings().navigationBarTitle("Settings", displayMode: .inline)) {
                     Label("Settings", systemImage: "gear")
                 }
-                NavigationLink(destination: appStoreRatingView().navigationBarTitle("Ratings", displayMode: .inline)) {
+                NavigationLink(destination: Ratings().navigationBarTitle("Ratings", displayMode: .inline)) {
                     Label("Ratings", systemImage: "trophy")
                 }
-                NavigationLink(destination: About().navigationBarTitle("Privacy", displayMode: .inline)) {
+                NavigationLink(destination: Privacy().navigationBarTitle("Privacy", displayMode: .inline)) {
                     Label("Privacy", systemImage: "hand.raised")
                 }
                 NavigationLink(destination: About().navigationBarTitle("About", displayMode: .inline)) {
@@ -61,10 +61,5 @@ struct More: View {
             }
             
         }
-    }
-    
-    func appStoreRatingView() -> some View {
-        let appStoreURL = URL(string: "itms-apps://itunes.apple.com/app/id6499372355")!
-        return WebView(url: appStoreURL)
     }
 }
