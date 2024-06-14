@@ -3,42 +3,19 @@ import SwiftUI
 struct QuickVolumeValue: View {
     
     @State private var volumeInput: String = ""
+    @State private var showAlert_2: Bool = false
+    @State private var alert_title: String = ""
+    @State private var alert_content: String = ""
     
     @AppStorage("quickVolumeValue") var quickVolumeValue : Double?
     
     var body: some View {
         
-        let quickVolumeValueString = Binding<String>(
-            get: { String(format: "%.2f", quickVolumeValue ?? 0.1) },
-            set: { newValue in
-                if let value = Double(newValue) {
-                    quickVolumeValue = value
-                }
-            }
-        )
-        
         VStack(spacing: 20) {
-            Image(systemName: "speaker.wave.2.circle")
-                .font(.system(size: 60))
-                .foregroundColor(.blue)
             
-            Text("VolumeVibe")
-                .font(.title3)
-                .bold()
+            Text("Set the volume value that can be quickly adjusted on the homepage.").foregroundStyle(.secondary).multilineTextAlignment(.leading).font(.subheadline)
             
-            Text("Acan Xie")
-                .foregroundColor(.secondary)
-            
-            VStack(alignment: .leading, content: {
-                Text("On Apple devices, the volume value typically ranges from 0 to 1. However, in this app the range is 0.0 to 100.0, which is believed to be more intuitive.").foregroundStyle(.secondary).multilineTextAlignment(.leading)
-                Spacer().frame(maxHeight: 20)
-                Text("This range allows for precise control over the audio output level. It's important to note that values outside this range might not have any effect on the actual volume level.").foregroundStyle(.secondary).multilineTextAlignment(.leading)
-                Spacer().frame(maxHeight: 20)
-                Text("Additionally, some devices might have slightly different behavior or additional features related to volume control.")
-                    .foregroundColor(.secondary).multilineTextAlignment(.leading)
-            })
-            
-            TextField("Set Volume 0.0 - 100.0", text: quickVolumeValueString)
+            TextField("Set Volume 0.0 - 100.0", text: $volumeInput)
                 .padding(12)
                 .background(Color(UIColor.systemBackground))
                 .cornerRadius(10)
@@ -56,16 +33,25 @@ struct QuickVolumeValue: View {
             
             Button(action: {
                 if let volume = Float(volumeInput.replacingOccurrences(of: ",", with: ".")) {
-                    let sysVolume = volume * 0.01
-                    setSysVolum(sysVolume)
+                    if(volume >= 0.0 && volume <= 100.0) {
+                        quickVolumeValue = Double(volume)
+                        showAlert_2 = true
+                        alert_title = "Success"
+                        alert_content = "Volume Successfully Set to \(formattedValue(value: Double(volume)))"
+                    }
+                    else {
+                        showAlert_2 = true
+                        alert_title = "Failed"
+                        alert_content = "Only Support Volume with Value 0.0 to 100.0"
+                    }
+                }
+                else {
+                    showAlert_2 = true
+                    alert_title = "Failed"
+                    alert_content = "Wrong Format"
                 }
             }) {
                 Text("Set Volume")
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(maxWidth: .infinity)
-                    .background(Color.blue)
-                    .cornerRadius(10)
             }
             
             Spacer()
@@ -76,6 +62,12 @@ struct QuickVolumeValue: View {
         .background(Color(UIColor.systemGray6).ignoresSafeArea())
         .onTapGesture {
             hideKeyboard()
+        }.alert(isPresented: $showAlert_2) {
+            Alert(
+                title: Text(alert_title),
+                message: Text(alert_content),
+                dismissButton: .default(Text("Got It"))
+            )
         }
     }
     

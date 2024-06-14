@@ -7,8 +7,8 @@ struct Settings: View {
     var body: some View {
         List {
             Section {
-                NavigationLink(destination: QuickVolumeValue().navigationBarTitle("About", displayMode: .inline)) {
-                    Label("About", systemImage: "info.circle")
+                NavigationLink(destination: QuickVolumeValue().navigationBarTitle("Quick Volume Value", displayMode: .inline)) {
+                    Label("Quick Volume Value", systemImage: "speaker.wave.2")
                 }            }
         }
     }
