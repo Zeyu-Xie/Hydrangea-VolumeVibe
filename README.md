@@ -1,2 +1,3 @@
 # Hydrangea-VolumeVibe
- iOS App dealing with volume
+
+An iOS app for adjusting volume.
