@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF58260C2BDA028D00DFD619 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58260B2BDA028D00DFD619 /* Home.swift */; };
+		FF58260E2BDA02D300DFD619 /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF58260D2BDA02D300DFD619 /* More.swift */; };
+		FF6398D22BDAAC47003FCBFB /* Castle in the Sky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF6398D12BDAAC47003FCBFB /* Castle in the Sky.mp3 */; };
+		FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */; };
+		FF8059122BD62EAE009E601B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059112BD62EAE009E601B /* ContentView.swift */; };
+		FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8059132BD62EB0009E601B /* Assets.xcassets */; };
+		FF8059172BD62EB0009E601B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8059162BD62EB0009E601B /* Preview Assets.xcassets */; };
+		FF8059212BD62EB1009E601B /* VolumeVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059202BD62EB1009E601B /* VolumeVibeTests.swift */; };
+		FF80592B2BD62EB1009E601B /* VolumeVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */; };
+		FF80592D2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */; };
+		FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */; };
+		FF856BE32BDA8DCF00A7BC33 /* Accurate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */; };
+		FF856BE62BDA939B00A7BC33 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE52BDA939B00A7BC33 /* Simulation.swift */; };
+		FF856BE82BDA93A500A7BC33 /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE72BDA93A500A7BC33 /* Privacy.swift */; };
+		FF856BEA2BDA96B000A7BC33 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF856BE92BDA96B000A7BC33 /* About.swift */; };
+		FFA0F20D2C1C827900B18949 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA0F20C2C1C827900B18949 /* Ratings.swift */; };
+		FFF5D2192C1C3E1B00DDCF45 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5D2182C1C3E1B00DDCF45 /* Settings.swift */; };
+		FFF5D21C2C1C413500DDCF45 /* QuickVolumeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5D21B2C1C413500DDCF45 /* QuickVolumeValue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF80591D2BD62EB1009E601B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8059042BD62EAE009E601B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF80590B2BD62EAE009E601B;
+			remoteInfo = VolumeVibe;
+		};
+		FF8059272BD62EB1009E601B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8059042BD62EAE009E601B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF80590B2BD62EAE009E601B;
+			remoteInfo = VolumeVibe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF58260B2BDA028D00DFD619 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FF58260D2BDA02D300DFD619 /* More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		FF6398D12BDAAC47003FCBFB /* Castle in the Sky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Castle in the Sky.mp3"; sourceTree = "<group>"; };
+		FF80590C2BD62EAE009E601B /* VolumeVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeApp.swift; sourceTree = "<group>"; };
+		FF8059112BD62EAE009E601B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF8059132BD62EB0009E601B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8059162BD62EB0009E601B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF80591C2BD62EB1009E601B /* VolumeVibeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeVibeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8059202BD62EB1009E601B /* VolumeVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeTests.swift; sourceTree = "<group>"; };
+		FF8059262BD62EB1009E601B /* VolumeVibeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolumeVibeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITests.swift; sourceTree = "<group>"; };
+		FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeVibeFunctions.swift; sourceTree = "<group>"; };
+		FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accurate.swift; sourceTree = "<group>"; };
+		FF856BE52BDA939B00A7BC33 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+		FF856BE72BDA93A500A7BC33 /* Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
+		FF856BE92BDA96B000A7BC33 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		FFA0F20C2C1C827900B18949 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
+		FFE19CF12C1C727E0034FDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FFF5D2182C1C3E1B00DDCF45 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		FFF5D21B2C1C413500DDCF45 /* QuickVolumeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickVolumeValue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8059092BD62EAE009E601B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8059192BD62EB1009E601B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8059232BD62EB1009E601B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8059032BD62EAE009E601B = {
+			isa = PBXGroup;
+			children = (
+				FF80590E2BD62EAE009E601B /* VolumeVibe */,
+				FF80591F2BD62EB1009E601B /* VolumeVibeTests */,
+				FF8059292BD62EB1009E601B /* VolumeVibeUITests */,
+				FF80590D2BD62EAE009E601B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF80590D2BD62EAE009E601B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF80590C2BD62EAE009E601B /* VolumeVibe.app */,
+				FF80591C2BD62EB1009E601B /* VolumeVibeTests.xctest */,
+				FF8059262BD62EB1009E601B /* VolumeVibeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF80590E2BD62EAE009E601B /* VolumeVibe */ = {
+			isa = PBXGroup;
+			children = (
+				FFE19CF12C1C727E0034FDE4 /* Info.plist */,
+				FF80590F2BD62EAE009E601B /* VolumeVibeApp.swift */,
+				FF8059112BD62EAE009E601B /* ContentView.swift */,
+				FF58260D2BDA02D300DFD619 /* More.swift */,
+				FF856BE42BDA932B00A7BC33 /* More */,
+				FF58260B2BDA028D00DFD619 /* Home.swift */,
+				FF8059392BD62F01009E601B /* VolumeVibeFunctions.swift */,
+				FF8059132BD62EB0009E601B /* Assets.xcassets */,
+				FF8059152BD62EB0009E601B /* Preview Content */,
+			);
+			path = VolumeVibe;
+			sourceTree = "<group>";
+		};
+		FF8059152BD62EB0009E601B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF8059162BD62EB0009E601B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF80591F2BD62EB1009E601B /* VolumeVibeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8059202BD62EB1009E601B /* VolumeVibeTests.swift */,
+			);
+			path = VolumeVibeTests;
+			sourceTree = "<group>";
+		};
+		FF8059292BD62EB1009E601B /* VolumeVibeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF80592A2BD62EB1009E601B /* VolumeVibeUITests.swift */,
+				FF80592C2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift */,
+			);
+			path = VolumeVibeUITests;
+			sourceTree = "<group>";
+		};
+		FF856BE42BDA932B00A7BC33 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				FF856BE22BDA8DCF00A7BC33 /* Accurate.swift */,
+				FFF5D2182C1C3E1B00DDCF45 /* Settings.swift */,
+				FFF5D21A2C1C408E00DDCF45 /* Settings */,
+				FF856BE52BDA939B00A7BC33 /* Simulation.swift */,
+				FFA0F20C2C1C827900B18949 /* Ratings.swift */,
+				FF856BE72BDA93A500A7BC33 /* Privacy.swift */,
+				FF6398D12BDAAC47003FCBFB /* Castle in the Sky.mp3 */,
+				FF856BE92BDA96B000A7BC33 /* About.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		FFF5D21A2C1C408E00DDCF45 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5D21B2C1C413500DDCF45 /* QuickVolumeValue.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF80590B2BD62EAE009E601B /* VolumeVibe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8059302BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibe" */;
+			buildPhases = (
+				FF8059082BD62EAE009E601B /* Sources */,
+				FF8059092BD62EAE009E601B /* Frameworks */,
+				FF80590A2BD62EAE009E601B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeVibe;
+			productName = VolumeVibe;
+			productReference = FF80590C2BD62EAE009E601B /* VolumeVibe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF80591B2BD62EB1009E601B /* VolumeVibeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8059332BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeTests" */;
+			buildPhases = (
+				FF8059182BD62EB1009E601B /* Sources */,
+				FF8059192BD62EB1009E601B /* Frameworks */,
+				FF80591A2BD62EB1009E601B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF80591E2BD62EB1009E601B /* PBXTargetDependency */,
+			);
+			name = VolumeVibeTests;
+			productName = VolumeVibeTests;
+			productReference = FF80591C2BD62EB1009E601B /* VolumeVibeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8059252BD62EB1009E601B /* VolumeVibeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8059362BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeUITests" */;
+			buildPhases = (
+				FF8059222BD62EB1009E601B /* Sources */,
+				FF8059232BD62EB1009E601B /* Frameworks */,
+				FF8059242BD62EB1009E601B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8059282BD62EB1009E601B /* PBXTargetDependency */,
+			);
+			name = VolumeVibeUITests;
+			productName = VolumeVibeUITests;
+			productReference = FF8059262BD62EB1009E601B /* VolumeVibeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8059042BD62EAE009E601B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FF80590B2BD62EAE009E601B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FF80591B2BD62EB1009E601B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FF80590B2BD62EAE009E601B;
+					};
+					FF8059252BD62EB1009E601B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FF80590B2BD62EAE009E601B;
+					};
+				};
+			};
+			buildConfigurationList = FF8059072BD62EAE009E601B /* Build configuration list for PBXProject "VolumeVibe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8059032BD62EAE009E601B;
+			productRefGroup = FF80590D2BD62EAE009E601B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF80590B2BD62EAE009E601B /* VolumeVibe */,
+				FF80591B2BD62EB1009E601B /* VolumeVibeTests */,
+				FF8059252BD62EB1009E601B /* VolumeVibeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF80590A2BD62EAE009E601B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8059172BD62EB0009E601B /* Preview Assets.xcassets in Resources */,
+				FF6398D22BDAAC47003FCBFB /* Castle in the Sky.mp3 in Resources */,
+				FF8059142BD62EB0009E601B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF80591A2BD62EB1009E601B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8059242BD62EB1009E601B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8059082BD62EAE009E601B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF856BE62BDA939B00A7BC33 /* Simulation.swift in Sources */,
+				FF58260E2BDA02D300DFD619 /* More.swift in Sources */,
+				FF856BE32BDA8DCF00A7BC33 /* Accurate.swift in Sources */,
+				FF80593A2BD62F01009E601B /* VolumeVibeFunctions.swift in Sources */,
+				FFA0F20D2C1C827900B18949 /* Ratings.swift in Sources */,
+				FFF5D2192C1C3E1B00DDCF45 /* Settings.swift in Sources */,
+				FF8059122BD62EAE009E601B /* ContentView.swift in Sources */,
+				FF856BEA2BDA96B000A7BC33 /* About.swift in Sources */,
+				FF856BE82BDA93A500A7BC33 /* Privacy.swift in Sources */,
+				FF58260C2BDA028D00DFD619 /* Home.swift in Sources */,
+				FFF5D21C2C1C413500DDCF45 /* QuickVolumeValue.swift in Sources */,
+				FF8059102BD62EAE009E601B /* VolumeVibeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8059182BD62EB1009E601B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8059212BD62EB1009E601B /* VolumeVibeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8059222BD62EB1009E601B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80592D2BD62EB1009E601B /* VolumeVibeUITestsLaunchTests.swift in Sources */,
+				FF80592B2BD62EB1009E601B /* VolumeVibeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF80591E2BD62EB1009E601B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF80590B2BD62EAE009E601B /* VolumeVibe */;
+			targetProxy = FF80591D2BD62EB1009E601B /* PBXContainerItemProxy */;
+		};
+		FF8059282BD62EB1009E601B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF80590B2BD62EAE009E601B /* VolumeVibe */;
+			targetProxy = FF8059272BD62EB1009E601B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF80592E2BD62EB1009E601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF80592F2BD62EB1009E601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8059312BD62EB1009E601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3.0;
+				DEVELOPMENT_ASSET_PATHS = "\"VolumeVibe/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VolumeVibe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VolumeVibe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AcanXie.Hydrangea-VolumeVibe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8059322BD62EB1009E601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3.0;
+				DEVELOPMENT_ASSET_PATHS = "\"VolumeVibe/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VolumeVibe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VolumeVibe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AcanXie.Hydrangea-VolumeVibe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF8059342BD62EB1009E601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AcanXie.VolumeVibeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolumeVibe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VolumeVibe";
+			};
+			name = Debug;
+		};
+		FF8059352BD62EB1009E601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AcanXie.VolumeVibeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolumeVibe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VolumeVibe";
+			};
+			name = Release;
+		};
+		FF8059372BD62EB1009E601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AcanXie.VolumeVibeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VolumeVibe;
+			};
+			name = Debug;
+		};
+		FF8059382BD62EB1009E601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AcanXie.VolumeVibeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VolumeVibe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8059072BD62EAE009E601B /* Build configuration list for PBXProject "VolumeVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF80592E2BD62EB1009E601B /* Debug */,
+				FF80592F2BD62EB1009E601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8059302BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8059312BD62EB1009E601B /* Debug */,
+				FF8059322BD62EB1009E601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8059332BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8059342BD62EB1009E601B /* Debug */,
+				FF8059352BD62EB1009E601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8059362BD62EB1009E601B /* Build configuration list for PBXNativeTarget "VolumeVibeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8059372BD62EB1009E601B /* Debug */,
+				FF8059382BD62EB1009E601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8059042BD62EAE009E601B /* Project object */;
+}
